@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.header {
+  width: 100%;
+  margin: auto;
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid rgb(11, 131, 243);
+  padding: 5px;
+  margin-top: 350px;
+}
+h2 {
+  margin: auto;
+  text-align: center;
+  color: rgb(16, 153, 216);
+}
+#content {
+  width: 100%;
+  margin: auto;
+  background-color: rgb(223, 228, 245);
+  border: 1px solid rgb(17, 142, 245);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 9px;
+}
+#content span {
+  background-color: rgb(253, 252, 250);
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+input {
+  color: gray;
+  margin-right: 5px;
+}
+input[type="radio"]:checked + label {
+  color: rgb(10, 176, 241);
+}
+.t {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border-radius: 50px;
+  background-color: rgb(187, 188, 189);
+  display: inline-block;
+}
+.act {
+  background-color: rgb(10, 176, 241);
+}
+#timer {
+  float: right;
+}
+button {
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgb(17, 142, 245);
+  padding: 5px;
+  font-size: larger;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.sch {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
